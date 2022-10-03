@@ -24,5 +24,12 @@ namespace Pizzeria
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SecondWindo secondWinObj = new SecondWindo();
+            this.Visibility = Visibility.Hidden;
+            secondWinObj.Show();
+        }
     }
 }

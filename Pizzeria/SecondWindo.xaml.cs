@@ -10,19 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Pizzeria
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour SecondWindo.xaml
     /// </summary>
-    public partial class SecondWindow : Window
+    public partial class SecondWindo : Window
     {
-        public SecondWindow()
+        public SecondWindo()
         {
-            
+            InitializeComponent();
         }
     }
 }
